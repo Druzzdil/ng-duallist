@@ -37,7 +37,7 @@ module.exports = function (grunt)
                 tagName: 'v%VERSION%',
                 tagMessage: 'Version %VERSION%',
                 push: false,
-                pushTo: 'git@github.com:tushariscoolster/ng-duallist.git',
+                pushTo: 'git@github.com:Druzzdil/ng-duallist#master',
                 gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d',
                 globalReplace: false
             }
